@@ -1,6 +1,6 @@
 name: dartify_json
 description: "Dart Class Generator from JSON is a tool that automatically converts JSON files into Dart classes. It creates complete classes with fields, constructors, fromJson, and toJson methods, making it easy to handle JSON data in Flutter and Dart applications."
-version: 0.0.1
+version: 0.0.2
 homepage:
 
 environment:

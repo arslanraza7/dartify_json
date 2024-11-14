@@ -3,7 +3,12 @@
 All notable changes to this project will be documented in this file.
 
 
-## [1.0.0] - 2024-11-14
+## [0.0.2] - 2024-11-14
+### Added
+- Improved Example with testcases
+
+
+## [0.0.1] - 2024-11-14
 ### Added
 - Initial release of Dart Class Generator from JSON.
 - Support for generating Dart classes from JSON files, including nested JSON structures.
