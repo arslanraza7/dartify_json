@@ -1,0 +1,8 @@
+{
+  "street": "123 Main St",
+  "city": "Metropolis",
+  "country": {
+    "name": "Wonderland",
+    "code": "WL"
+  }
+}
