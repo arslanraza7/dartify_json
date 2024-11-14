@@ -1,30 +1,29 @@
+import 'package:example/generated/user_address.dart';
 
-
-import 'package:example/generated/user_country.dart';
 
 class User {
-  final String street;
-  final String city;
-  final Country country;
+  final int id;
+  final String name;
+  final Address address;
 
   User({
-    required this.street,
-    required this.city,
-    required this.country,
+    required this.id,
+    required this.name,
+    required this.address,
   });
 
   factory User.fromJson(Map<String, dynamic> json) {
     return User(
-      street: json['street'],
-      city: json['city'],
-      country: Country.fromJson(json['country']),
+      id: json['id'],
+      name: json['name'],
+      address: Address.fromJson(json['address']),
     );
   }
   Map<String, dynamic> toJson() {
     return {
-      'street': street,
-      'city': city,
-      'country': country.toJson(),
+      'id': id,
+      'name': name,
+      'address': address.toJson(),
     };
   }
 }

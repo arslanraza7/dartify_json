@@ -1,8 +1,12 @@
 {
-  "street": "123 Main St",
-  "city": "Metropolis",
-  "country": {
-    "name": "Wonderland",
-    "code": "WL"
+  "id": 1,
+  "name": "John Doe",
+  "address": {
+    "street": "123 Main St",
+    "city": "Metropolis",
+    "country": {
+      "name": "Wonderland",
+      "code": "WL"
+    }
   }
 }
